@@ -1,0 +1,22 @@
+import java.util.*;
+import java.util.ArrayList;
+class copy
+{
+    public static void main(String args[])
+    {
+    ArrayList <Integer> a=new ArrayList<Integer>();
+    a.add(2);
+    a.add(4);
+    a.add(6);
+    System.out.println("original arrayList: "+a);
+    ArrayList <Integer> b=(ArrayList <Integer>)a.clone(); 
+     System.out.println("cloned arrayList: "+b);
+     //adding elements in original arrayList i.e,arrayList
+     a.add(10);
+     a.remove(4);
+     //Now we see that changes are made in original list but not in cloned list
+     System.out.println("Original ArrayList:"+a);
+     System.out.println("Cloned ArrayList:"+b);
+    }
+   
+}
