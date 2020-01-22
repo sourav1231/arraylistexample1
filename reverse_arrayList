@@ -1,0 +1,16 @@
+import java.util.*;
+class copy
+{
+    public static void main(String args[])
+    {
+    ArrayList <Integer> a=new ArrayList<Integer>();
+    a.add(2);
+    a.add(4);
+    a.add(6);
+    System.out.println("arrayList before reversing: "+a);
+
+    Collections.reverse(a);
+    System.out.println("arrayList after reversing: "+a);
+    }
+   
+}
