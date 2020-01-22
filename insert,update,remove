@@ -1,0 +1,41 @@
+//  to insert an element into the array list at the first position.
+//   to retrieve an element (at a specified index) from a given array list.
+//   to update specific array element by given element.
+//  to remove the third element from a array list.
+import java.util.*;
+
+ class arraylistexample
+{
+	public static void main(String args[]) 
+	{
+		ArrayList<String> a=new ArrayList<String>();
+		a.add("ram");
+		a.add("shyam");
+		for(String str:a)
+		{
+		    System.out.println(str);
+		}
+		//adding element at first position
+		a.add(0,"ravi");
+		
+		System.out.println("after adding ravi at first position:");
+		for(String str:a)
+		{
+		    System.out.println(str);
+		}
+		//updating a specified element 
+		a.set(0,"sourav");
+		System.out.println("after updating ravi by sourav:");
+		for(String str:a)
+		{
+		    	System.out.println(str);
+		}
+		//removing third element
+		System.out.println("after removing third element:")
+		a.remove(2);
+		for(String str:a)
+		{
+		    	System.out.println(str);
+		}
+	}
+}
