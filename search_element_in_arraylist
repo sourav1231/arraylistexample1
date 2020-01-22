@@ -1,0 +1,14 @@
+import java.util.ArrayList;
+ class arraylistexample
+{
+	public static void main(String args[]) 
+	{
+		ArrayList<String>  a=new ArrayList<String>();
+		a.add("ravi");
+		a.add("ram");
+		a.add("sourav");
+	
+		int index=a.indexOf("sourav");
+		System.out.println("sourav is present at index:"+index);
+	}
+}
