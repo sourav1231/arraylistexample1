@@ -1,0 +1,23 @@
+import java.util.*;
+ class arraylist
+{
+	public static void main(String args[]) 
+	{
+		ArrayList <Integer> a=new ArrayList <Integer>();
+		a.add(5);
+		a.add(3);
+		a.add(9);
+      	a.add(15);
+      	System.out.println("before sorting :");
+      		for(int i:a)
+		{
+		    System.out.println(i);
+		}
+		Collections.sort(a);
+		System.out.println("after sorting:");
+		for(int i:a)
+		{
+		    System.out.println(i);
+		}
+	}
+}
