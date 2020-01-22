@@ -1,0 +1,18 @@
+import java.util.*;
+class copy
+{
+    public static void main(String args[])
+    {
+    ArrayList <Integer> a=new ArrayList<Integer>();
+    a.add(2);
+    a.add(4);
+    a.add(6);
+     ArrayList<Integer> b=new ArrayList<Integer>();
+       b.addAll(a);//copying elements
+      
+       for(int i:b)
+       {
+           System.out.println(i);
+       }
+    }
+}
