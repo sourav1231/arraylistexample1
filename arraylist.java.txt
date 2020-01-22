@@ -1,0 +1,22 @@
+import java.util.*;
+
+ class arraylistexample
+{
+	public static void main(String args[]) 
+	{
+		ArrayList<String> a=new ArrayList<String>();
+		a.add("ram");
+		a.add("shyam");
+		for(String str:a)
+		{
+		    System.out.println(str);
+		}
+		a.add("ravi");
+		a.add("sourav");
+		System.out.println("after adding ravi and sourav ,the new list:");
+		for(String str:a)
+		{
+		    System.out.println(str);
+		}
+	}
+}
